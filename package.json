@@ -1,0 +1,13 @@
+{
+  "name": "websocket-shop",
+  "version": "1.0.0",
+  "description": "WebSocket магазин с простой архитектурой",
+  "main": "server/websocket-server.js",
+  "scripts": {
+    "start": "node server/websocket-server.js",
+    "dev": "node server/websocket-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+} 
